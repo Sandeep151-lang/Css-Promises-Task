@@ -2,7 +2,7 @@
 const box = document.getElementById('box');
 
 fetch(`https://covid-api.mmediagroup.fr/v1/cases`).then(resp => resp.json()).then(data => {
-     console.log(data.India)
+    
      box.innerHTML = ` <div class="container">
             <div class="row">
                <div class="col">
