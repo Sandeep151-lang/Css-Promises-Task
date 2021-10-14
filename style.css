@@ -1,0 +1,59 @@
+.main_div{
+ 
+    margin-top: 5px;
+    width: 18rem;
+    font-size: 25px;
+}
+
+.box{
+    background-color: whitesmoke;
+    padding: 20px 5px;
+    z-index: 2;   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: violet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main_container_div{
+    background-color: whitesmoke;
+    margin-top:12px ;
+    
+}
+.deaths_case{
+    background-color: #d53131;
+    font-size: 20px;
+}
+.fas{
+    margin: 5px 10px;
+    font-size: 35px;
+}
+.deaths_text{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.confirmed_case{
+
+   background-color: orange;
+   font-size: 20px;
+}
+.capital_city{
+
+   background-color: green;
+   font-size: 20px;
+}
+.country{
+    background-color: rgb(185, 90, 135);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .capitals_div{
+      margin-top: 3rem;
+  }
+}
